@@ -55,7 +55,7 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#project">CreatifusionStudios</a></li>
                 <li><a class="dropdown-item" href="#project">Yebsys</a></li>
-                <li><a class="dropdown-item" href="#project">wolfarmgroup</a></li>
+                <li><a class="dropdown-item" href="#project">WolfarmGroup</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 
               </ul>
@@ -70,7 +70,7 @@
       </div>
     </nav>
     <!-- ################################33 -->
-    <section id="home" class="pt-5" style="background-image: url(portfolio/login_bg-transformed.jpeg); background-repeat: no-repeat;background-size:100%; height: 730px;">
+    <section id="home" class="pt-5" style="background-image: url(login_bg-transformed.jpeg); background-repeat: no-repeat;background-size:100%; height: 730px;">
     <section class="right-slant-shape  pb-10 pt-4 pb-4" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
       <div class="container pb-4 mb-5 mt-5">
          <div class="row">
@@ -86,7 +86,10 @@
                     innovative projects in the tech industry.
                   </p>
                   <BR>
-                    <button class="btn btn-primary"><a class="nav-link" href="resume.docx">Download CV</a></button>
+                    <button class="btn btn-primary" id="ani"><a class="nav-link" href="resume.docx"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                    </svg>    <b>Download CV</b></a></button>
                </div>
             </div>
          </div>
@@ -96,13 +99,13 @@
           <BR>
    </section>
   </section>
-    <!-- #################################3 -->
+    
 
   <!-- ###############################################  About #####################################################-->
    <!-- <div class="bound"> -->
   <section id="about">
     <div class="container px-4 py-5" id="custom-cards"><h2 class="pb-2 border-bottom">About</h2>
-  <section class="mb-7 py-xl-9 py-5">
+  <section class="bound mb-7 py-xl-9 py-5">
     <div class="container pb-xl-9 pb-5" id="design">
         <div class="row align-items-center g-4">
             <!-- <div class="col-lg-6 col-md-12"> -->
@@ -180,7 +183,7 @@
                             <br>
                             
                         </div>
-                        <button class="btn btn-primary" style="width: 80px;"><a class="nav-link" href="https://leetcode.com/u/Gayathri_026/">Leetcode</a></button>
+                        <button class="btn btn-primary" id="ani" style="width: 80px;"><a class="nav-link" href="https://leetcode.com/u/Gayathri_026/">Leetcode</a></button>
                       </div>
                 </div>
                 
@@ -194,12 +197,12 @@
   
 
   <!-- ###############################################  PROJECTS  #################################################3 -->
-   <section id="project">
+   <section id="project" class="bound">
     <div class="container px-4 py-5" id="custom-cards">
       <h2 class="pb-2 border-bottom">Projects</h2>
-      <div  class="container px-4 py-5" id="custom-cards">
+      <div  class="container  card-container px-4 py-5" id="custom-cards">
         <div class="row row-cols-1 row-cols-md-3 g-4 ">
-          <div class="col">
+          <div class="col card1" id="ani">
             <div class="card h-100">
               <img src="creatisuion.png" class="card-img-top" alt="..." style="height: 350px;">
               <div class="card-body">
@@ -207,11 +210,11 @@
                 <br>
                 <p class="card-text">I developed CretiFusionStudios using <b>WordPress</b> to showcase digital marketing and game development services. Through this project, I learned to customize themes, integrate SEO and analytics plugins, and create a responsive, user-friendly website tailored to specific creative domains.</p>
                 <br>
-                <button class="btn btn-primary" ><a class="nav-link" href="https://certifusionstudios.com">Go to webpage</a></button>
+                <button class="btn btn-primary" ><a class="nav-link" href="https://creatifusionstudios.com/">Visit Site</a></button>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col card1" id="ani">
             <div class="card h-100">
               <img src="yebsys.jpg" class="card-img-top" alt="..."style="height: 350px">
               <div class="card-body">
@@ -219,11 +222,11 @@
                 <br>
                 <p class="card-text">Yebsys is a website I created using <b>WordPress</b>, focusing on IT solutions and digital services. While developing this site, I learned to customize themes, integrate plugins for SEO and performance, and design a professional, responsive layout to meet the needs of the tech domain.</p>
                 <br>
-                <button class="btn btn-primary"><a class="nav-link" href="https://yebsys.com">Go to webpage</a></button>
+                <button class="btn btn-primary"><a class="nav-link" href="https://yebsys.com">Visit Site</a></button>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col card1" id="ani">
             <div class="card h-100">
               <img src="wolform.jpg" class="card-img-top" alt="..." style="height: 350px">
               <div class="card-body">
@@ -231,14 +234,14 @@
                 <br>
                 <p class="card-text">I developed the Wolform Group website using WordPress, customizing themes and integrating plugins for SEO, analytics, and contact forms. This project taught me to design responsive layouts, optimize performance, and create a user-friendly site for showcasing multiple services.</p>
                 <br>
-                <button class="btn btn-primary"><a class="nav-link" href="https://wolfarmgroup.com/">Go to webpage</a></button>
+                <button class="btn btn-primary"><a class="nav-link" href="https://wolfarmgroup.com/">Visit Site</a></button>
               </div>
             </div>
           </div>
          
         </div>
       </div>
-   <!-- ##################################################################################################################### -->
+   
 
   </section>
   <!-- ######################################## SKILLS ############################################ -->
@@ -332,7 +335,7 @@
                   
                     
                       
-         <h2 class="chart-heading">Professional Skills</h2>
+         <h2 class="chart-heading">Skill Categories </h2>
          <div class="programming-stats">
              <div class="chart-container">
                  <canvas class="my-chart"></canvas>
