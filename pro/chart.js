@@ -1,6 +1,6 @@
 const chartData = {
-    labels:["Self-Discipline","Team Work" ,"Communication","Analytical Skills"],
-    data:[40,30,10,20],
+    labels:["Front-end Development","Back-end Development" ,"Database Management","Data Analysis"],
+    data:[40,30,20,10],
 
 };
 
